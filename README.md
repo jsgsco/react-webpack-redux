@@ -5,3 +5,11 @@ Este proyecto esta configurado con:
 * `Babel`
 * `Redux`
 * `SASS`
+
+## Para poder usar este proyecto debes usar los siguientes comandos:
+
+Una vez clonado el proyecto debes usar
+### `npm install`
+
+Y cuando ya este la instalacion de la paqueteria usa
+### `npm run dev`
