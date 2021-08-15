@@ -1,11 +1,16 @@
+import generateStore from "./redux/store"
+import { Provider } from 'react-redux'
 import "./App.scss"
 
 function App() {
+
+    const store = generateStore()
+
     return (
-        <div className="app">
+        <Provider store={store}>
             <h1>React + Webpack + SASS</h1>
             <p>Mi primer proyecto de React con Webpack</p>
-        </div>
+        </Provider>
     )
 }
 
